@@ -15,4 +15,5 @@
 ### 3. 진행 완료
 - Self Project 1 (Rental Bicycle)
 > Server or App에 미구현
-![resultImage](./Rental Bicycle/data/image/resultImage.PNG)
+
+<img width="583" alt="resultImage" src="https://user-images.githubusercontent.com/55193363/70711648-59742200-1d25-11ea-94ac-6710ef6b00e4.PNG">
