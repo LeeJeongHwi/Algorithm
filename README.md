@@ -14,4 +14,5 @@
 
 ### 3. 진행 완료
 - Self Project 1 (Rental Bicycle)
+![resultImage](./Study/Rental Bicycle/data/image/resultImage.png)
 > Server or App에 미구현
