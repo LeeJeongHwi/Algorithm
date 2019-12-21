@@ -1,6 +1,5 @@
 #에라토스테네스의 체
 import math
-import time
 from sys import stdin
 n = int(stdin.readline())
 arr = [x for x in list(map(int,stdin.readline().split()))]
