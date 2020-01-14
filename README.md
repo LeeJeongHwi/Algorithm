@@ -3,9 +3,10 @@
 ### 1. 현재 진행 중
 - BOJ 알고리즘 [19.10.01 ~ ]
 - Git, Github [19.11.27 ~ ]
-- Django [19.12.01 ~ ]
 - MongoDB (Pymongo) [19.12.21 ~ ]
+- BeautifulSoup4
 ### 2. 진행 예정
+- Django
 - Spring MVC모델
 - ADsP 자격증 준비 (R 언어)
 - Java (생활코딩)
