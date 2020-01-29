@@ -15,7 +15,7 @@
 
 ### 3. 진행 완료
 - Self Project 1 (Rental Bicycle)
-각 구별 공용자전거 ( 따릉이 ) 이용 현황
+> 각 구별 공용자전거 ( 따릉이 ) 이용 현황
 
 > Server or App에 미구현
 
