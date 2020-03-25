@@ -2,7 +2,7 @@ from sys import stdin
 n,m,s_x,s_y,k= map(int,stdin.readline().split())
 board = [list(map(int,stdin.readline().split())) for _ in range(n)]
 inst = list(map(int,stdin.readline().split()))
-#클래스를 이용함
+#클래스를 이용함 test
 class Dice:
 	def __init__(self,now_x,now_y,top,bottom,left,right,up,down):
 		self.now_x = now_x
