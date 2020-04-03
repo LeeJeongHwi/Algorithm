@@ -1,5 +1,11 @@
-arr=[1,2,3,4,5]
-n=4
-for i in range(0,n//2):
-	arr[n-i-1],arr[i] = arr[i],arr[n-i-1]
-print(arr)
+num_of_good_words = 0
+
+for _ in range(int(input())):
+	word, temp = input(), ""
+	while word != temp:
+		print("TEMP:",temp,"WORD:",word)
+		temp, word = word, word.replace("AA", "").replace("BB", "")
+	if not word:
+		num_of_good_words += 1
+
+print(num_of_good_words)
