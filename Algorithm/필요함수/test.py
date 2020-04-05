@@ -1,5 +1,11 @@
-strs = ['C','4']
-fire = ['C','4']
+from sys import stdin
+import heapq
 
-if strs == fire:
-	print("strs")
+heap = []
+
+heapq.heappush(heap,1)
+heapq.heappush(heap,5)
+heapq.heappush(heap,2)
+heapq.heappush(heap,3)
+
+print(heapq.heappop(heap))
