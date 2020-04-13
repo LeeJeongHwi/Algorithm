@@ -30,6 +30,7 @@ def solution(x,y,s): # s = 자른 종이의 개수
 	s //= 3
 	for i in range(0,3):
 		for j in range(0,3):
+			print(x+i*s , y+j*s , s)
 			solution(x+i*s,y+j*s,s)
 
 solution(0,0,n)
