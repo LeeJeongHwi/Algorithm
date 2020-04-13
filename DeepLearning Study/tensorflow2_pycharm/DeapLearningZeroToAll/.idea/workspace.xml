@@ -32,7 +32,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="NN,ReLu,Xavier,Dropout,Adam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Running" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TFLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +44,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/NN,ReLu,Xavier,Dropout,Adam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/CNNTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -55,7 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NN,ReLu,Xavier,Dropout,Adam" />
+        <item itemvalue="Python.Running" />
       </list>
     </recent_temporary>
   </component>
@@ -71,5 +71,16 @@
       <updated>1585048459363</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/CNNTest.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
