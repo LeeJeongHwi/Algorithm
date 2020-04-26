@@ -27,7 +27,7 @@ def bfs(a,b,c,visit):
 					visit[ny][nx][z] += visit[y][x][z]+1
 					queue.append((nx,ny,z))
 				if visit[ny][nx][z] == 0 and graph[ny][nx] == 1 and z==0:
-					visit[ny][	nx][z+1] = visit[y][x][z]+1
+					visit[ny][nx][z+1] = visit[y][x][z]+1
 					queue.append((nx,ny,z+1))
 	if visit[n-1][m-1][0] != 0:
 		if visit[n-1][m-1][1] != 0:
