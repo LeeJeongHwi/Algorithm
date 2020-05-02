@@ -1,12 +1,5 @@
-maps = [[0]*8 for _ in range(8)]
-y= 6
-x= 1
+n = 1234
 
-for i in range(1,8):
-	if 0<=y-i<8:
-		maps[y-i][x+i]=1
-	else:
-		break
-
-for i in maps:
-	print(i)
+d4 = n%10
+num = n//10
+print(num+d4*1000)
