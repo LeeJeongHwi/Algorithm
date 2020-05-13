@@ -1,5 +1,8 @@
-n = 1234
+start = 19.2
+result = start
+for i in range(4):
+	start += 2.4000000
+	print(start ,end =' ')
+	result += start
 
-d4 = n%10
-num = n//10
-print(num+d4*1000)
+print(result)
