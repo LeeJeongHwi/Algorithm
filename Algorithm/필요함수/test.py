@@ -1,13 +1,8 @@
-		# if 0<=y+1<n and visit[y+1][x] == 0:
-		# 	if maps[y+1]
-		# 	visit[y+1][x] = 1
-		# 	queue.append((y+1,x))
-		# elif 0<=y-1<n and visit[y-1][x] == 0:
-		# 	visit[y-1][x] = 1
-		# 	queue.append((y-1,x))
-		# elif 0<=x+1<n and visit[y][x+1] == 0:
-		# 	visit[y][x+1] = 1
-		# 	queue.append((y,x+1))
-		# elif 0<=x-1<n and visit[y][x-1] == 0:
-		# 	visit[y][x-1] = 1
-		# 	queue.append((y,x-1))
+d = [1,2,3,4]
+
+만약 내가 1 인상태에서
+2로 가고 싶다 방향전환을 해야함
+
+2 (서) 2 필요
+3 (남) 1 필요
+4 (북) 1 필요
