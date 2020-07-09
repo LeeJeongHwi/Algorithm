@@ -11,10 +11,6 @@ def dfs(x,cnt,step):
 	global student,visit,choice
 	#x는 Now
 	while True:
-		# print("x(now) :",x,"step :",step,"다음 Point :",choice[x])
-		# print("visit :",visit)
-		# print("Choice :",choice)
-		# print("======")
 		if visit[x]!=False:
 			if step != choice[x]: #시작지점과 다를 때
 				return 0
