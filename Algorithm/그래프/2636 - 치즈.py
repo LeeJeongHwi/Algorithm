@@ -1,5 +1,6 @@
 from sys import stdin
 from collections import deque
+stdin = open("input.txt",'r')
 n,m = map(int,stdin.readline().split())
 cheeze = [list(map(int,stdin.readline().split())) for _ in range(n)]
 
@@ -11,7 +12,7 @@ def bfs(visit,i,j):
 	c = []
 	while queue:
 		y,x = queue.popleft()
-		#0 부분 탐색
+		#부분 탐색
 		for dy,dx in [(0,1),(1,0),(-1,0),(0,-1)]:
 			ny = y+dy
 			nx = x+dx

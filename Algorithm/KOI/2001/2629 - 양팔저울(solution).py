@@ -1,8 +1,9 @@
 from sys import stdin
+stdin = open("./input.txt",'r')
 
-n_s = int(input())
+n_s = int(stdin.readline())
 sinker = list(map(int,stdin.readline().split()))
-n_m = int(input())
+n_m = int(stdin.readline())
 marble = list(map(int,stdin.readline().split()))
 ans = []
 visit = [[0 for _ in range(sum(sinker)+1)] for _ in range(n_s+1)]
