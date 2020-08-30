@@ -1,8 +1,11 @@
 from sys import stdin
-stdin = open('input.txt','r')
 n = int(stdin.readline())
 nlist = list(map(int,stdin.readline().split()))
-minNum , minSum = float('inf'),float('inf')
+
 nlist.sort()
-print(nlist)
-print(minNum,minSum)
+nlistLen = len(nlist)
+
+if nlistLen % 2 == 0:
+	print(nlist[(nlistLen//2)-1])
+else:
+	print(nlist[nlistLen//2])
