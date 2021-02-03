@@ -39,7 +39,7 @@ def solution(citations):
     citations.sort(reverse=True)
     # i 는 논문의 수 , h는 인용횟수
     # 인용횟수 == 논문의 수 , 인용횟수 < 논문의 수
-    for i,h in enumerate(citations):
+    for i,h in enumerate(citations):  
         if i+1==h:
             return h
         elif i+1>h:

@@ -8,7 +8,7 @@ def solution(citations):
     # i 는 논문의 수 , h는 인용횟수
     # 인용횟수 == 논문의 수 , 인용횟수 < 논문의 수
     for i,h in enumerate(citations):
-        # print("index :",i+1,"h :",h)
+        print("index :",i+1,"h :",h)
         if i+1==h:
             return h
         elif i+1>h:
